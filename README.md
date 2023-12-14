@@ -12,35 +12,36 @@ User has to provide **"city-name"** in **location_id**, like for example /weathe
 1. **"/ "** -> This default route will render the "index.html file" when the app launches.
   
      http://localhost:3030/
-   ![Screenshot 2023-12-14 170936](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/7923db90-3645-4c0f-8768-5bbc5f967261)
+   ![Screenshot 2023-12-14 170936](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/bb651aca-5003-4d73-ad54-4a236c982ae7)
+
 4. **"/locations "** ->  http://localhost:3030/locations
 
     **(GET)** - Get all locations user has added along with some default locations.
-   
-   ![Screenshot 2023-12-14 140551](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/75a13040-dbb1-4a0f-9377-c0245df47af7)
+   ![Screenshot 2023-12-14 140551](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/74caddad-6097-4fbc-b574-c9f66c7468b8)
+
 
     **(POST)** - User can also add location by providing location_id : "city_name" in body.
-   ![Screenshot 2023-12-14 140806](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/62f37d53-69db-4dc9-bdc0-d196a32739a1)
+![Screenshot 2023-12-14 140806](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/474b3292-d814-4d31-9e47-ea619c120352)
 
    
 6. **"/locations/:location_id "** ->  http://localhost:3030/locations/:location_id
    
    **(GET)** - User can get weather forecast of that location provided in location_id.
-   ![Screenshot 2023-12-14 141018](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/3cd035d9-1416-4417-837d-656079001226)
+![Screenshot 2023-12-14 141018](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/a7ec56aa-91ea-4a95-870f-41614212d968)
 
    
    **(PUT)** - User can update the location by changing the location_id to city he wants in body.
-   ![Screenshot 2023-12-14 140851](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/f9429be2-c28c-4181-abc0-e938b1ba3240)
+![Screenshot 2023-12-14 140851](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/03e4ecab-3aab-4de4-8305-7f20992bf7b2)
 
 
    **(DELETE)** - User can delete the location.
-![Screenshot 2023-12-14 141041](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/0adff039-bde3-4ff7-9224-99acdced5516)
+![Screenshot 2023-12-14 141041](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/2f00760e-8549-409c-8558-3f234f9b6f11)
 
 
 8. **"/weather/:location_id "** ->    http://localhost:3030/weather/:location_id
  
    **(GET)** - User can get weather forecast of any location provided in ID.
-   ![Screenshot 2023-12-14 140523](https://github.com/parthojha12/WeatherApp-FitPage/assets/112394456/0d214da3-b35f-4f8b-8364-2fff8b4e2a72)
+![Screenshot 2023-12-14 140523](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/b49f478f-cf1e-4010-ad2f-0b3237911f5c)
 
 
 10. **"/history "** ->
