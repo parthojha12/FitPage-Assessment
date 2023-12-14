@@ -65,9 +65,11 @@ User has to provide **"city-name"** in **location_id**, like for example /weathe
 ├── controllers
 |   ├── locationcontroller.js
 |   ├── weathercontroller.js
+|   ├── historycontroller.js
 ├── routes
 |   ├── locationroutes.js
 |   ├── weatherroutes.js
+|   ├── historyroutes.js
 ├── src/
 │   ├── index.html 
 ├── index.js
