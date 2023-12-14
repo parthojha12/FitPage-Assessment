@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <style>
+      .maindiv {
+        background-color: black;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+      }
+      .container{
+        margin-top: 10vh
+      }
+      .almabetter {
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2vh 0;
+        text-align: center;
+      }
+      .upperdiv {
+        background-color: aqua;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: aqua;
+      }
+      .lowerdiv {
+        margin-top: 2vh;
+        background-color: aquamarine;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      ul li {
+        margin: 2vh;
+      }
+      h2 {
+        margin-top: 5px;
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="container">
+        <div class="almabetter">
+          <h1>FITPAGE BACKEND ASSIGNMENT</h1>
+        </div>
+        <div class="upperdiv">
+          <h1> Real-time Weather Forecast API </h1>
+          <h2>You can try entering each route using the routes given below</h2>
+        </div>
+        <div class="lowerdiv">
+          <ul>
+            <li>
+              GET <b>/locations</b> : Get all locations user has added along with some default locations. 
+            </li>
+            <li>
+                POST <b>/locations</b> : User can also add location by providing location_id : "city_name" in body
+              </li>
+            <li>
+              GET <b>/locations/:location_id</b> : User can get weather forecast of that location provided in location_id.
+            </li>
+            <li>
+                PUT <b>/locations/:location_id</b> : User can update the location by changing the location_id to city he wants in body.
+              </li>
+              <li>
+                DELETE <b>/locations/:location_id</b> : User can delete the location.
+              </li>
+            <li>
+              GET <b>/weather/:location_id</b> : User can get weather forecast of any location provided in ID.
+            </li>
+            <li>
+                GET <b>/history/:location_id</b> : Get the historical data. Provide city name and country in query.
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
