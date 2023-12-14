@@ -9,9 +9,10 @@ The API has several endpoints that let users get weather forecast, such as an e
 User has to provide **"city-name"** in **location_id**, like for example /weather/mumbai - to search for weather forecast of Mumbai.
 
 ## API Endpoints 
-1. **"/ "** -> This default route will render the "index.html file" when the app launches.
+1. **"/ "** ->   http://localhost:3030/
+   
+   **(GET)** - This default route will render the "index.html file" when the app launches.
   
-     http://localhost:3030/
    ![Screenshot 2023-12-14 170936](https://github.com/parthojha12/Weather-App-FitPage/assets/112394456/bb651aca-5003-4d73-ad54-4a236c982ae7)
 
 4. **"/locations "** ->  http://localhost:3030/locations
