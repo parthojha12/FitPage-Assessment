@@ -88,6 +88,8 @@ Install the required dependencies as mentioned below by using **npm install**.
 
 Start the server by **nodemon index.js**
 
+Use **POSTMAN** for handling routes.
+
 ## Dependencies
 Following dependencie are needed to run this application: 
 
